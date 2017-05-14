@@ -11,14 +11,28 @@ It's mostly plugins I like using to start of projects. Idea is to start of proje
 
 - `sbt -sbt-version 0.13.15 new lhohan/scala-quality.g8`
 
-Notes:
+Plugins
+----
 - scalafmt:
   - Auto-formatting on compile is enabled.
   - Default formatting style is 'default-with-align'.
-- todos: See [todos]
+- todos: see [todos]
+- sbt-updates: see [sbt-updates]
 
 Also configured:
-- coursier: Faster artifact fetching
+- coursier: faster artifact fetching
+
+To do:
+- https://github.com/HairyFotr/linter
+
+Setup
+--------
+
+All plugins are as much as possible to run on compile as much as possible.
+
+The plugins are added to your project in `project/plugins-base.sbt` to keep them distinct from your own plugins.
+
+
 
 Template license
 ----------------
@@ -29,3 +43,4 @@ and neighboring rights to this template to the public domain worldwide.
 This template is distributed without any warranty. See <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 [todos]: https://github.com/fedragon/sbt-todolist
+[sbt-updates]: https://github.com/rtimush/sbt-updates
