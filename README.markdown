@@ -25,6 +25,12 @@ Also configured:
 To do:
 - https://github.com/HairyFotr/linter
 
+Other
+------
+
+Scala compiler warnings have been enabled and will fail compilation if there are any.
+See build.sbt to change add more. To see all possible options run `scalac` locally.
+
 Setup
 --------
 
