@@ -28,3 +28,10 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.3" % "test"
 import TodoListPlugin._
 compileWithTodolistSettings
 testWithTodolistSettings
+
+// wartremover plugin setup
+wartremoverErrors ++= Warts.unsafe
+// Enable all warts (some generate false positives)
+//wartremoverErrors ++= Warts.all
+// Generate warnings instead of errors:
+//wartremoverWarnings ++= Warts.all

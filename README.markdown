@@ -16,8 +16,9 @@ Plugins
 - scalafmt:
   - Auto-formatting on compile is enabled.
   - Default formatting style is 'default-with-align'.
-- todos: see [todos]
-- sbt-updates: see [sbt-updates]
+- todos: see [todos].
+- sbt-updates: see [sbt-updates].
+- WartRemover, a flexible Scala code linting tool. See [wartremover].
 
 Also configured:
 - coursier: faster artifact fetching
@@ -50,3 +51,4 @@ This template is distributed without any warranty. See <http://creativecommons.o
 
 [todos]: https://github.com/fedragon/sbt-todolist
 [sbt-updates]: https://github.com/rtimush/sbt-updates
+[wartremover]: https://github.com/wartremover/wartremover
