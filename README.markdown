@@ -19,12 +19,10 @@ Plugins
 - todos: see [todos].
 - sbt-updates: see [sbt-updates].
 - WartRemover, a flexible Scala code linting tool. See [wartremover].
+- Linter Compiler Plugin, Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems. See [linter].
 
 Also configured:
 - coursier: faster artifact fetching
-
-To do:
-- https://github.com/HairyFotr/linter
 
 Other
 ------
@@ -52,3 +50,4 @@ This template is distributed without any warranty. See <http://creativecommons.o
 [todos]: https://github.com/fedragon/sbt-todolist
 [sbt-updates]: https://github.com/rtimush/sbt-updates
 [wartremover]: https://github.com/wartremover/wartremover
+[linter]: https://github.com/HairyFotr/linter
