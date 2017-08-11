@@ -1,0 +1,5 @@
+1. run `sbt test`
+2. template is applied, i.e. project is generated, in target/g8/my-project
+
+sbt-base-test && g8 file://scala-quality.g8 --name=sbt-base-test --force
+

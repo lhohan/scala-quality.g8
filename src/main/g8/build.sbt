@@ -35,3 +35,6 @@ wartremoverErrors ++= Warts.unsafe
 //wartremoverErrors ++= Warts.all
 // Generate warnings instead of errors:
 //wartremoverWarnings ++= Warts.all
+
+// hairyfotr linter setup
+addCompilerPlugin("org.psywerx.hairyfotr" %% "linter" % "0.1.17")

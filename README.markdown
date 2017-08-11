@@ -4,10 +4,10 @@ scala-quality giter8 plugin
 TODO: expand on motivation for this project.
 
 A scala giter8 template with focus on quality oriented plugins.
-It's mostly plugins I like using to start of projects. Idea is to start of projects well so:
-- easy to avoid potential bugs can be avoided
+It's mostly plugins I like using to start of projects to be able to:
+- catch potential bugs sooner
 - focus on what's important
-- we measure from the start, so we do not have to play catch up
+- measure 'quality' from the start, so we do not have to play catch up
 
 - `sbt -sbt-version 0.13.15 new lhohan/scala-quality.g8`
 
@@ -17,9 +17,13 @@ Plugins
   - Auto-formatting on compile is enabled.
   - Default formatting style is 'default-with-align'.
 - todos: see [todos].
-- sbt-updates: see [sbt-updates].
+    - Automatically enabled on compile.
+- sbt-updates: see [sbt-updates]. Common commands:
+    -
 - WartRemover, a flexible Scala code linting tool. See [wartremover].
+    - Automatically enabled on compile.
 - Linter Compiler Plugin, Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems. See [linter].
+    - Automatically enabled on compile.
 
 Also configured:
 - coursier: faster artifact fetching
